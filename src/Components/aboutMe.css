@@ -1,0 +1,77 @@
+.aboutContainer
+{
+    display: flex;
+    padding-bottom: 200px;
+}
+.aboutLeft
+{
+    width: 100%;
+    /* padding-left: 60px;
+    padding-top: 20px; */
+    /* font-size: 60px; */
+    font-weight: 500;
+}
+.aboutLeft h2{
+    font-size: 76px;
+}
+.aboutRight
+{
+    /* width: 50%; */
+}
+.aboutTitle
+{
+    font-size: 30px;
+}
+.aboutDescription
+{
+    font-size: 15px;
+    line-height: 25px;
+}
+.aboutLink
+{
+    /* color: #D3E97A; */
+}
+.aboutLink a{
+    text-decoration: none;
+    color: #D3E97A;
+}
+@media (max-width:580px) {
+    h2 , h1 , p 
+    {
+        text-align: center;
+    }
+    /* .end , .start
+    {
+        width: 100%;
+    } */
+    /* .nav-items , .start
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .nav-items{
+        padding: 0;
+    }
+    .contactIcons
+    {
+        justify-content: center;
+    }
+    .contactForm input
+    {
+        width: 100%;
+    }
+    .contactForm textarea
+    {
+        width: 100%;
+    }
+    .projectRight
+    {
+        padding: 0;
+    }
+    /* p
+    {
+        text-align: center;
+    } */
+}

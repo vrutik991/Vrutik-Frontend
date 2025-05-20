@@ -1,0 +1,90 @@
+.aboutContainer
+{
+    display: flex;
+}
+.aboutLeft
+{
+    width: 100%;
+    /* padding-left: 60px;
+    padding-top: 20px; */
+    /* font-size: 60px; */
+    font-weight: 500;
+}
+.aboutLeft h2{
+    font-size: 76px;
+}
+.aboutRight
+{
+    /* width: 50%; */
+}
+.aboutTitle
+{
+    font-size: 30px;
+}
+.skills ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.skills ul li
+{
+    padding: 10px 20px;
+    border: 1px solid #484848;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.skills h2
+{
+    text-align: center;
+}
+.aboutLink
+{
+    /* color: #D3E97A; */
+}
+.aboutLink a{
+    text-decoration: none;
+    color: #D3E97A;
+}
+@media (max-width:580px) {
+    h2 , h1 , p 
+    {
+        text-align: center;
+    }
+    .end , .start
+    {
+        width: 100%;
+    }
+    .nav-items , .start
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-items{
+        padding: 0;
+    }
+    .contactIcons
+    {
+        justify-content: center;
+    }
+    .contactForm input
+    {
+        width: 100%;
+    }
+    .contactForm textarea
+    {
+        width: 100%;
+    }
+    .projectRight
+    {
+        padding: 0;
+    }
+    /* p
+    {
+        text-align: center;
+    } */
+}

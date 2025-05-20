@@ -1,0 +1,46 @@
+.vrutik {
+    font-size: 32px;
+    color: #C7C7C7;
+    margin: 0;
+}
+
+.start {
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+}
+
+.navbar {
+    /* background-color: white; */
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    color: #C7C7C7;
+    padding: 10px;
+    list-style: none;
+}
+
+.hamburgur {
+    display: none;
+}
+
+
+@media (max-width:425px) {
+    .navbar-toggler {
+        transform: scale(0.8);
+    }
+}
+
+/* @media (max-width:581px) {
+    .hamburgur{
+        display: flex;
+    }
+} */
+.navbar-toggler {
+    border: 2px solid white;
+    background-color: white;
+}
