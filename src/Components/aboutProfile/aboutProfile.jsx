@@ -1,7 +1,5 @@
 import styles from './aboutProfile.module.css'
-import Profile from '/aboutProfile.jpg';
-
-import React from 'react'
+import Profile from '/aboutProfile.jpg'; 
 
 const aboutProfile = () => {
   return (

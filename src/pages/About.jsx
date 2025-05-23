@@ -4,12 +4,16 @@ import Navbar from '../Components/Navbar'
 import AboutProfile from '../Components/aboutProfile/aboutProfile'
 import Capabilities from '../Components/myCapabilities/capabilities'
 import Experience from '../Components/Experience/experience'
-import ContactMe from '../Components/contactMe'
-import { Link } from 'react-router'
+import ContactMe from '../Components/contactMe/contactMe'
+import ScrollToTop from '../services/ScrollToTop'
+import FixBootstrapScrollLock from '../services/FixBootstrapScrollLock'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const About = () => {
     return (
         <div>
+            <FixBootstrapScrollLock></FixBootstrapScrollLock>
             <div className="container">
                 <Navbar></Navbar>
                 <section className='aboutMe'><AboutMe2></AboutMe2></section>
@@ -26,6 +30,7 @@ const About = () => {
                 <hr />
                 <section className='contactVrutik'>
                     <ContactMe></ContactMe>
+                    <ToastContainer />
                 </section>
             </div>
         </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./project.css";
-// import tailwindcss from '@tailwindcss/vite'
-// import Image from ''
+
 
 const Project = ({project}) => {
   return (
@@ -9,7 +8,6 @@ const Project = ({project}) => {
         <div className="projectContainer">
           <div className="row">
             <div className="col-lg-6"><div className="projectLeft">
-              {/* <p>{project.image}</p>d */}
                 <img className='projectImage' src={project.image} alt="not available" />
             </div></div>
             <div className="col-lg-6"><div className="projectRight">
@@ -28,7 +26,6 @@ const Project = ({project}) => {
               </div>
               <hr />
               <div className="links">
-                {/* <div className="live-demo"><a href={project.liveDemo}>LIVE DEMO</a></div> */}
                 <div className="github"><a href={project.github}>SEE ON GITHUB</a></div>
               </div>
             </div></div>

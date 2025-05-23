@@ -1,6 +1,5 @@
 .projectLeft{
     background-color: #1A1A1A;
-    /* width: 50%; */
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -15,7 +14,6 @@
 }
 .projectRight
 {
-    /* width: 50%; */
     padding: 40px;
 }
 .projectRight *
@@ -42,13 +40,7 @@
     margin-right: 40px;
     transition: .5s;
 }
-/* .live-demo::after
-{
-    content: ' ';
-    height: 2px;
-    width: 4px;
-    color: #D3E97A;
-} */
+
 .github{
     transition: .5s;
 }
@@ -64,11 +56,7 @@
 {
     transform: scale(1.2);
 }
-/* .github a 
-{
-    text-decoration: none;
-    color: #D3E97A;
-} */
+
 .projectImage
 {
     object-fit: cover;

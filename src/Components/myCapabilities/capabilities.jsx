@@ -14,7 +14,7 @@ const capabilities = () => {
                     <div className="col-lg-6"><div className={styles.aboutRight}>
                         <p className={styles.aboutTitle}>I am a front-end developer and always looking to learn new skills. And always eager for good opportunities  </p>
                         <br />
-                        <p className={styles.skills}>
+                        <div className={styles.skills}>
                             <h2>Frontend</h2>
                             <br />
                             <ul className='Frontend'>
@@ -42,7 +42,7 @@ const capabilities = () => {
                                 <li>Mongoose</li>
                                 <li>Mongo Compass</li>
                             </ul>
-                        </p>
+                        </div>
                     </div></div>
                 </div>
             </div>

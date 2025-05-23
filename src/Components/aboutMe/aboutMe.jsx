@@ -15,7 +15,7 @@ const aboutMe = () => {
           <br />
           <p className='aboutDescription'>I am a front-end developer based in India looking for exciting opportunities. Has Computer Science Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Machine Learning & Data Science and a bit of Designing. While I am not programming, I enjoy playing Chess , Volleyball and playing Games. Learning more to improve skill.</p>
           <br />
-          <p className='aboutLink'><a href="/about">MORE ABOUT ME</a></p>
+          <p className='aboutLink'><Link to="/about">MORE ABOUT ME</Link></p>
         </div></div>
         </div>
       </div>

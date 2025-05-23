@@ -6,12 +6,7 @@
 
 .start {
     display: flex;
-    /* align-items: center; */
     align-items: center;
-}
-
-.navbar {
-    /* background-color: white; */
 }
 
 .nav-items {
@@ -35,11 +30,6 @@
     }
 }
 
-/* @media (max-width:581px) {
-    .hamburgur{
-        display: flex;
-    }
-} */
 .navbar-toggler {
     border: 2px solid white;
     background-color: white;

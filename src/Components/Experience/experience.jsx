@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './experience.module.css'
-import { Link } from 'react-router'
 
 const experience = () => {
   return (
