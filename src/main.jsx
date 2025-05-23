@@ -8,7 +8,7 @@ import ScrollToTop from './services/ScrollToTop.jsx'
 
 const router = createBrowserRouter([
         {
-          path:"about",
+          path:"/about",
           element:<About></About>
         },
         {
