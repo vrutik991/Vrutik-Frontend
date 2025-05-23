@@ -3,17 +3,12 @@ import "../styles/navbar.css"
 import { Link } from 'react-router'
 import { useNavigate } from 'react-router-dom'
 import About from '../pages/About'
+import App from '../App.jsx';
 
 const Navbar = () => {
-    const navigate = useNavigate();
-
-    const toAbout = () =>
-    {
-        navigate("/about");
-    }
     return (
         <div>
-            <nav className="navbar">
+            <nav className="navbar ">
                 <div className="start">
                     <h4 className='vrutik'>VRUTIK RATHOD</h4>
                 </div>
@@ -28,10 +23,10 @@ const Navbar = () => {
                         <div className="offcanvas-body">
                             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li className="nav-item">
-                                    <button className="nav-link active" aria-current="page" onClick={()=>navigate('/')}>Home</button>
+                                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="nav-link" onClick={toAbout}>About</button>
+                                    <Link className="nav-link" to="/about" >About</Link>
                                 </li>
                             </ul>
                         </div>
