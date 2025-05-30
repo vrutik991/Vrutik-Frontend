@@ -61,7 +61,7 @@ return (
                             <p>For more info here's <a className='resume' href="/Vrutik_Resume_Latest.pdf" download>my resume</a></p>
                             <br />
                             <div className="contactIcons">
-                                <div className="linkedin"><a href="www.linkedin.com/in/vrutik-rathod"><i className="fa-brands fa-linkedin-in"></i></a></div>
+                                <div className="linkedin"><a href="https://www.linkedin.com/in/vrutik-rathod/"><i className="fa-brands fa-linkedin-in"></i></a></div>
                                 <div className="githubIcon"><a href="https://github.com/vrutik991"><i className="fa-brands fa-github"></i></a></div>
                                 {/* <div className="twitter"><a href=""><i className="fa-brands fa-twitter"></i></a></div> */}
                                 <div className="instagram"><a href="https://www.instagram.com/vrutik_991_/"><i className="fa-brands fa-instagram"></i></a></div>

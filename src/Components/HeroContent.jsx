@@ -18,7 +18,7 @@ const HeroContent = () => {
                                         <a href="#contactMe"><b>CONTACT ME</b></a>
                                         <div className='black-effect'><span className="material-symbols-outlined">north_east</span></div>
                                     </div>
-                                    <a href="www.linkedin.com/in/vrutik-rathod" className='heroLinkdin'><div className="black-button"><i className="fa-brands fa-linkedin-in"></i></div></a>
+                                    <a href="https://www.linkedin.com/in/vrutik-rathod/" className='heroLinkdin'><div className="black-button"><i className="fa-brands fa-linkedin-in"></i></div></a>
                                     <a href="https://github.com/vrutik991" className='heroGithub'><div className="black-button"><i className="fa-brands fa-github"></i></div></a>
                                 </div>
                             </div>
