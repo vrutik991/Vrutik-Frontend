@@ -1,16 +1,3 @@
-// const dot = document.querySelector(".cursor-dot");
-// const ring = document.querySelector(".cursor-ring");
-
-// document.addEventListener("mousemove", e => {
-//   const { clientX: x, clientY: y } = e;
-
-//   dot.style.left = `${x}px`;
-//   dot.style.top = `${y}px`;
-
-//   ring.style.left = `${x}px`;
-//   ring.style.top = `${y}px`;
-// });
-
 
 const dot = document.querySelector(".cursor-dot");
 const ring = document.querySelector(".cursor-ring");
