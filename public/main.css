@@ -37,13 +37,13 @@ body {
   transition: transform 0.2s ease;
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) and (pointer:coarse) {
   .cursor-dot,
   .cursor-ring {
     display: none;
   }
 
   body {
-    cursor: auto;
+    cursor: none;
   }
 }
