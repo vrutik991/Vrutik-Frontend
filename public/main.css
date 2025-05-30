@@ -1,0 +1,49 @@
+body {
+  cursor: none; 
+  margin: 0;
+  /* height: 100vh; */
+  /* background: ;  */
+  /* overflow: hidden; */
+} 
+
+*{
+    cursor: none;
+}
+
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+/* Center pink dot */
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #D3E97A ;
+  border-radius: 50%;
+}
+
+/* White ring */
+.cursor-ring {
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  /* transition: transform 0.15s ease-out; */
+  transition: transform 0.2s ease;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot,
+  .cursor-ring {
+    display: none;
+  }
+
+  body {
+    cursor: auto;
+  }
+}
