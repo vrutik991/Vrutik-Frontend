@@ -29,10 +29,18 @@
     border: 1px solid #484848;
     border-radius: 30px;
     margin-bottom: 10px;
+    transition: .5s;
 }
 .skills h2
 {
     text-align: center;
+}
+
+.skills li:hover
+{
+    transform: scale(1.8);
+    border-radius: 10%;
+    border: 1px solid #D3E97A;
 }
 
 .aboutLink a{

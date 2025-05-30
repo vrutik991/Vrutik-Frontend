@@ -61,3 +61,16 @@
         padding: 0;
     }
 }
+
+.aboutLink
+{
+    display: inline;
+    padding: 10px;
+}
+
+.aboutLink:hover
+{
+    border: 2px solid #D3E97A;
+    border-radius: 10px;
+    transform: scale(1.5);
+}

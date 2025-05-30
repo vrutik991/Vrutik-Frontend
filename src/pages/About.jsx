@@ -17,9 +17,9 @@ const About = () => {
             <div className="container">
                 <Navbar></Navbar>
                 <section className='aboutMe'><AboutMe2></AboutMe2></section>
-                <section className='profile'>
+                {/* <section className='profile'>
                     <AboutProfile></AboutProfile>
-                </section>
+                </section> */}
                 <section className='capabilities'>
                     <Capabilities></Capabilities>
                 </section>

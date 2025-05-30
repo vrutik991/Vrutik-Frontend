@@ -64,7 +64,14 @@
 .contactIcons div
 {
     margin-right: 30px;
+    transition: .2s ease-in-out;
 }
+
+.contactIcons div:hover
+{
+    transform: scale(1.5);
+}
+
 .contactIcons div a{
     text-decoration: none;
     color:#D3E97A;

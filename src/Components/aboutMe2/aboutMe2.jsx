@@ -8,12 +8,12 @@ const aboutMe2 = () => {
       <div className={styles.aboutContainer}>
         <div className="row">
           <div className="col-lg-6"><div className={styles.aboutLeft}>
-            <h2>ABOUT ME</h2>
+            <h2> ABOUT ME</h2>
           </div></div>
           <div className="col-lg-6"><div className={styles.aboutRight}>
-            <p className={styles.aboutTitle}>I am a front-end developer in India. Has a Computer Science Engineering background.</p>
+            <p className={styles.aboutTitle}>I'm passionate about continuous learning and enjoy diving into new technologies and creative challenges. </p>
             <br />
-            <p className={styles.aboutDescription}>I am a front-end developer based in India looking for exciting opportunities. Has Computer Science Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Machine Learning and a bit of Designing. While I am not programming, I enjoy playing Chess, Volleyball and playing PC Games. Learning more to improve skill.</p>
+            <p className={styles.aboutDescription}>Outside of tech, I enjoy playing chess , traveling, which keeps me inspired and balanced. I believe that curiosity, consistency, and collaboration are key to growth — and I’m excited to bring that mindset into every opportunity I pursue. I’m currently open to internships, freelance projects, or entry-level roles where I can learn, contribute, and grow.</p>
             <br />
             <p className={styles.aboutLink}><a href="/Vrutik_Resume_Latest.pdf" download>Download Resume</a></p>
           </div></div>

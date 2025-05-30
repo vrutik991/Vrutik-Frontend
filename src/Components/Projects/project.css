@@ -1,11 +1,26 @@
 .projectLeft{
-    background-color: #1A1A1A;
+    /* background-color: #1A1A1A; */
     border: 1px solid black;
     border-radius: 30px;
 }
 .projectLeft img
 {
+  display: inline-block;
+  animation: tilt 1.5s infinite ease-in-out;
 }
+
+@keyframes tilt {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
 .projectContainer
 {
     min-width: 100%;

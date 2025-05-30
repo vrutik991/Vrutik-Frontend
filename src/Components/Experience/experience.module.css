@@ -72,3 +72,8 @@
     text-decoration: none;
     transition: 1s;
 }
+
+.ProjectPara a:hover
+{
+    transform: scale(1.5);
+}
