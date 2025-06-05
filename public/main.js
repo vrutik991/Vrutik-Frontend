@@ -1,4 +1,10 @@
+const isTouchDevice = window.matchMedia("(hover: none) and (pointer: coarse)").matches 
+  || 'ontouchstart' in window 
+  || navigator.maxTouchPoints > 0;
 
+
+if(!isTouchDevice)
+{
 const dot = document.querySelector(".cursor-dot");
 const ring = document.querySelector(".cursor-ring");
 
@@ -28,3 +34,4 @@ function animateRing() {
 }
 
 animateRing(); // Start animation loop
+}

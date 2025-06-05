@@ -42,8 +42,7 @@ body {
   .cursor-ring {
     display: none;
   }
-
   body {
-    cursor: none;
+    cursor: auto;
   }
 }
