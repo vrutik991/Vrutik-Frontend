@@ -11,7 +11,7 @@ const experience = () => {
           </div></div>
           <div className="col-lg-6"><div className={styles.aboutRight}>
             <p className={styles.aboutTitle}>MERN Stack Intern</p>
-            <p className={styles.companyName}>Eliteware Solutions</p>
+            <p className={styles.companyName}>Omni Solutions</p>
             <p className={styles.aboutDescription}>
                 Gained Experience as an Frontend Developer creating Responsive Web Designs which helped me to gain knowledge about Frontend principles.
             </p>

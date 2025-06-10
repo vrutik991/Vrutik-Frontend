@@ -69,11 +69,17 @@
 .projectName
 {
     color: #D3E97A;
-    text-decoration: none;
+    text-decoration: underline;
     transition: 1s;
 }
 
 .ProjectPara a:hover
 {
     transform: scale(1.5);
+    width: 100%;
+}
+
+.projectName:hover
+{
+    transform: scale(1.2);
 }
