@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar'
 import HeroContent from './Components/HeroContent'
 import Projects from './Components/Projects/Projects'
 import AboutMe from './Components/aboutMe/aboutMe'
-import ContactMe from './Components/contactMe/contactMe'
+import ContactMe from './Components/contactMe/ContactMe'
 import ScrollToTop from './services/ScrollToTop'
 import FixBootstrapScrollLock from './services/FixBootstrapScrollLock'
 import { ToastContainer } from 'react-toastify';

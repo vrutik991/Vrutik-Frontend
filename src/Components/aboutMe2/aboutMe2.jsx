@@ -7,6 +7,7 @@ const aboutMe2 = () => {
     <div>
       <div className={styles.aboutContainer}>
         <div className="row">
+          <label htmlFor=""></label>
           <div className="col-lg-6"><div className={styles.aboutLeft}>
             <h2> ABOUT ME</h2>
           </div></div>
@@ -20,6 +21,7 @@ const aboutMe2 = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 

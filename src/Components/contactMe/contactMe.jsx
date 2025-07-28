@@ -4,7 +4,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify';
 
 
-const contactMe = () => {
+const ContactMe = () => {
 
     const handleChange = (event) => {
         setformData((currData) => {
@@ -81,10 +81,10 @@ return (
                             <br />
                             <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
                             <br /><br />
-                            <label htmlFor="name">Email</label>
+                            <label htmlFor="email">Email</label>
                             <br />
                             <br />
-                            <input type="text" id='email' name='email' value={formData.email} onChange={handleChange} required/>
+                            <input type="email" id='email' name='email' value={formData.email} onChange={handleChange} required/>
                             <br /><br />
                             <label htmlFor="subject">Subject</label>
                             <br />
@@ -107,9 +107,8 @@ return (
                 </div>
             </div>
         </div>
-
     </div>
 )
 }
 
-export default contactMe
+export default ContactMe;

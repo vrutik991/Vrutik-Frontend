@@ -6,19 +6,6 @@
 .projectLeft img
 {
   display: inline-block;
-  animation: tilt 1.5s infinite ease-in-out;
-}
-
-@keyframes tilt {
-  0% {
-    transform: rotate(-5deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(-5deg);
-  }
 }
 
 .projectContainer
